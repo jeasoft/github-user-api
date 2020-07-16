@@ -1,4 +1,4 @@
-FROM python:3.7.9-alpine
+FROM python:3.7.8-alpine
 RUN apk --update add bash vim gcc 
 ENV PYTHONUNBUFFERED 1
 WORKDIR /usr/local/app
